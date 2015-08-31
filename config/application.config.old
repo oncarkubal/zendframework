@@ -12,6 +12,8 @@ return array(
         'Helloworld',
         'Himumbai',
         'Blog',
+        'CsnUser',
+        'Monday',
     ),
     'module_listener_options' => array(
         'module_paths' => array(

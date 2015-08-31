@@ -13,6 +13,8 @@ return array(
         'Himumbai',
         'Blog',
         'CsnUser',
+        'Monday',
+        'Omega',
     ),
     'module_listener_options' => array(
         'module_paths' => array(

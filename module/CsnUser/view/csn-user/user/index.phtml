@@ -1,9 +1,15 @@
 <h1>Index = Retrive</h1>
-
-    <?php
-        foreach ($rowset as $row) {
-        echo '<pre>';
-        print_r($row);
-        echo '</pre>';
-}
-?>
+<table>
+    <th>
+    <td>ID</td>
+    <td>Artist</td>
+    <td>Title</td>
+    </th>
+    <?php foreach ($rowset as $row) { ?>
+        <tr>
+            <td><?php echo $row['id']; ?></td>
+            <td><?php echo $row['artist']; ?></td>
+            <td><?php echo $row['title']; ?></td>
+        </tr>        
+    <?php } ?>
+</table>
